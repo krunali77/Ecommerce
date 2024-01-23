@@ -16,4 +16,6 @@ namespace Ecommerce_Models.Models
         [DisplayName("Display Order")]
         public int DisplayOrder { get; set; }
     }
+
 }
+

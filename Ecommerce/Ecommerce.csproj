@@ -13,6 +13,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.1.3" />
     <PackageReference Include="Microsoft.ClearScript.V8.Native.win-x64" Version="7.4.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.0" />
@@ -29,6 +30,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Ecommerce_DataAcess\Ecommerce_DataAcess.csproj" />
     <ProjectReference Include="..\Ecommerce_Models\Ecommerce_Models.csproj" />
+    <ProjectReference Include="..\Ecommerce_Utility\Ecommerce_Utility.csproj" />
   </ItemGroup>
 
   <ItemGroup>
